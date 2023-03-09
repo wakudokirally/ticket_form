@@ -12,14 +12,19 @@ content="width=device-width, initial-scale=1.0">
 <script type="text/javascript">
   function check(){
     if (name_form.name.value == ""){
-      alert("名前を入力してください"); 
+      alert("名前が入力されてないっぽいっす！"); 
       return false;
-    }else if(name_form.name.value == "バズ" || 
-             name_form.name.value == "ほそだ"){
-      location.href='https://wakudokidiary.github.io';
+    }else if(name_form.name.value == "わく" || 
+             name_form.name.value == "ワク"){
+      location.href='https://wakudokirally.github.io/wakuwaku/';
       return true;
-    }else {
-      location.href='https://www.google.com/';
+    }else if(name_form.name.value == "どき" || 
+             name_form.name.value == "ドキ"){
+      location.href='https://wakudokirally.github.io/dokidoki/';
+      return true;
+    
+    }else{
+      alert("名前はあってるかな？ひらがな⇄カタカナでもだめだったら問い合わせてね♪"); 
     }
   }
 </script>
