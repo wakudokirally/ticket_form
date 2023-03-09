@@ -43,6 +43,10 @@ input[type="button"]{
   font-size: 150%;
 }
 
+input[type="text"]{
+  font-size: 150%;
+}
+
 .logo img {
   width:600px;
   height:550px;
