@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+<meta charset="utf-8">
+<title>わくどき運動会5/27チケット</title>
+<meta name="viewpoint"
+content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="home.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript">
+  function check(){
+    if (name_form.name.value == ""){
+      alert("名前を入力してください"); 
+      return false;
+    }else if(name_form.name.value == "バズ" || 
+             name_form.name.value == "ほそだ"){
+      location.href='https://wakudokidiary.github.io';
+      return true;
+    }else {
+      location.href='https://www.google.com/';
+    }
+  }
+</script>
+</head>
+
+<body>
+
+  <div class="box1">
+
+    <div class="nyuryoku">
+      <img id="#" src="画像/nyuryoku.PNG">
+    </div>
+
+    <div class="form">
+        <input id="name" type="text" name="name">
+        <input id="button" type="button" value="チケット表示" id="doLogin" onClick="return check()">
+    </div>
+
+    <div class="logo">
+      <img id="#" src="画像/logo.PNG">
+    </div>
+
+  </div>
+
+</body>
+
+</html>
